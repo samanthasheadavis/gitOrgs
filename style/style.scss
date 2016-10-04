@@ -1,0 +1,42 @@
+@import "partials/reset";
+
+$background-color: #F0F0F0;
+$text-color: #AAAAAA;
+
+@mixin center() {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+#btn {
+  background: $background-color;
+  padding: 15px;
+  position: absolute;
+  top: 100px;
+  font-size: 25px;
+  border-radius: 5%;
+  color: $text-color;
+  @include center();
+
+  &:hover {
+    background: black;
+    color: white
+  }
+
+}
+
+.orgInfo {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: $background-color;
+  top: 210px;
+  @include center();
+
+}
