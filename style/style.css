@@ -49,30 +49,39 @@ table {
 
 #container {
   width: 100%;
-  height: 100%;
-  position: relative; }
+  height: 100%; }
 
 #btn {
   background: #F0F0F0;
   padding: 15px;
-  position: absolute;
-  top: 100px;
   font-size: 25px;
   border-radius: 5%;
   color: #AAAAAA;
-  left: 50%;
-  transform: translateX(-50%); }
+  margin: 25px auto;
+  display: block; }
   #btn:hover {
-    background: black;
-    color: white; }
+    background: black; }
 
 .orgInfo {
-  position: absolute;
-  width: 300px;
-  height: 300px;
+  width: 700px;
   background: #F0F0F0;
-  top: 210px;
-  left: 50%;
-  transform: translateX(-50%); }
+  border: 1px solid #DADADA;
+  border-radius: 2%;
+  margin: 20px auto;
+  display: none; }
+  .orgInfo:hover {
+    background: black; }
+  .orgInfo h2 {
+    font-size: 50px;
+    font-family: Arial, sans-serif;
+    color: #AAAAAA;
+    position: absolute;
+    left: 28%;
+    margin: 20px; }
+  .orgInfo img {
+    width: 50px;
+    height: 50px;
+    display: inline;
+    margin: 20px; }
 
 /*# sourceMappingURL=style.css.map */
