@@ -6,7 +6,7 @@ Github Orgs is an interface to view someone's GitHub organizations. For this pro
 [See it on GitHub Pages](https://samanthasheadavis.github.io/gitOrgs/)
 #### Languages/Tools
 * JavaScript
-* JQuery Ajax
+* JQuery/Ajax
 * HTML5
 * Sass
 
