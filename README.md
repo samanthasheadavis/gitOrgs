@@ -1,7 +1,7 @@
-# Github Orgs
-#### Week 3 Day 3 Homework
+# GitHub Orgs
+#### Week 4 Day 1 Homework
 
-Github Orgs is an interface to view someone's GitHub organizations. For this project I used JQuery Ajax calls to load JSON data and styled it with Sass.
+GitHub Orgs is an interface to view someone's GitHub organizations. For this project I used JQuery and Ajax calls to load JSON data and styled it with Sass.
 
 [See it on GitHub Pages](https://samanthasheadavis.github.io/gitOrgs/)
 #### Languages/Tools
